@@ -9,15 +9,15 @@ app.get('/',(req,res)=>{
 
 
 app.get("/blog",(req,res)=>{
-    res.render(' blog')
+    res.render('blog')
 })
 
 
 app.get("/blog/create",(req,res)=>{
-    res.send("soon,here will be the create form")
+    res.render('createblog')
 })
 app.get("/blog/edit",(req,res)=>{
-    res.send("soon,here will be the edit form")
+    res.render('editblog')
 })
 
 
